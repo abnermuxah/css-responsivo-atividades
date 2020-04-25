@@ -1,0 +1,55 @@
+.header {
+    background-color: #47484b;
+    padding: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+.container::after, .container::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Menu */
+
+li{
+    list-style: none;
+}
+body {
+    font-family: Georgia, sans-serif;
+}
+
+a {
+    /*remover linha do texto*/
+    text-decoration: none; 
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.menu-logo {
+    float:left;
+    display: block;
+}
+
+.menu-nav{
+    float: right;
+    margin-right: 10px;
+}
+
+.menu-nav li {
+    display: inline-block;
+}
+
+.menu-nav a {
+    background: red;
+    padding: 2px;
+    color: #fff;
+    display: block;
+    font-size: 1.125em;
+}
