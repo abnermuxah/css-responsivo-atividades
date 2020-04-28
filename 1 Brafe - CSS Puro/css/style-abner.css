@@ -59,16 +59,20 @@ a {
 
 
 /*Intro*/
-. intro h1 {
+.intro h1 {
     text-transform: uppercase;
+    font-size: 3em;
+}
+
+.intro p {
+    font-size: 1.125em;
+    font-style: italic;
 }
 .intro {
     background: url(../img/bg-intro.jpg), no-repeat, center, center;
     background-size: cover;
     color: white;
-    
     text-align: center;
-    font-size: 1.5em;
     padding: 60px;
 }
 
@@ -80,5 +84,4 @@ a {
     height: 6px;
     margin: 0 auto;
     background: #fff;
-    
 }
