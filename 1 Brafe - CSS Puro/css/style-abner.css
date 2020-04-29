@@ -85,3 +85,36 @@ a {
     margin: 0 auto;
     background: #fff;
 }
+/* Sobre */
+
+.sobre {
+    padding: 45px 0;
+}
+.sobre h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+}
+
+.sobre-item{
+   width: 460px;
+    float: left;
+    margin: 0 10px; 
+}
+
+.sobre-item img {
+    display: block;
+    max-width: 100%;
+}
+
+.sobre-item h3 {
+    background-color: dimgrey;
+    color: white;
+    float: left;
+    padding: 10px 5px;
+    font-size: 2.25em;
+    margin: 0;
+    position: relative;
+    top: -30px;
+}
+
