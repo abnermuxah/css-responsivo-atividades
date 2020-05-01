@@ -88,7 +88,7 @@ a {
 /* Sobre */
 
 .sobre {
-    padding: 45px 0;
+    padding: 45px;
 }
 .sobre h2 {
     text-align: center;
@@ -117,13 +117,15 @@ a {
     position: relative;
     top: -30px;
 }
+
 /* Produtos */
+
 .produtos {
     border-top: #E88501 4px solid;
     border-bottom: #E88501 4px solid;
     background: #E7EDF8;
     text-align: center;
-    margin: 40px 0;
+    padding: 60px 0;
 }
 .produtos-item {
     float: left;
@@ -149,3 +151,21 @@ a {
     border: 5px solid #e7edf8;
     box-shadow: 0 0 0 5px currentcolor;
 }
+
+h2.produtos-paulista::before {
+    color: #A96304;
+}
+
+h2.produtos-carioca::before {
+    color: #DFD6C5;
+}
+
+h2.produtos-mineiro::before {
+    color: #573104;
+}
+
+.produtos-btn{
+    background: red;
+    display: inline-block;
+}
+
