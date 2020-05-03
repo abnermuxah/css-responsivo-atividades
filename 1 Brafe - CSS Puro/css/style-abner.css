@@ -89,6 +89,7 @@ a {
 
 .sobre {
     padding: 45px;
+    text-align: center;
 }
 .sobre h2 {
     text-align: center;
@@ -129,7 +130,7 @@ a {
 }
 .produtos-item {
     float: left;
-    width: 300px;
+    width: 250px;
     padding: 0 10px 20px 20px;
 }
 
@@ -167,5 +168,12 @@ h2.produtos-mineiro::before {
 .produtos-btn{
     background: red;
     display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+    color: #252525;   
 }
+
+
+
+/*   Locais   */
 
