@@ -1,0 +1,171 @@
+/*Brafe com GRID*/
+
+/* Reset */
+body, h1, h2, h3, p, ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Georgia, serif;
+    color: #252525;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Menu inicial */
+
+.header{
+    background: #252525;
+}
+
+.menu-nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.125em;
+}
+
+/* Introdução */
+
+.intro{
+    background: url(../img/bg-intro.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.intro h1{
+    font-size:3em;
+    text-transform: uppercase;
+}
+
+.intro h1:after{
+    content: "";
+    display: block;
+    background: #fff;    
+}
+.intro p{
+    font-style: italic;
+    font-size: 1.125em;
+}
+
+/* Sobre */
+
+.sobre h2{
+    text-align: center;
+    font-size: 2.25em;
+}
+
+.sobre-item h3{
+    font-size: 2.25em;
+    background: #252525;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+}
+
+.sobre p{
+    text-align: center;
+    font-size: 1.125em;
+    line-height: 1.4em;
+    font-style: italic;
+}
+
+/* Produtos */
+.produtos{
+    background: #e7edf8;
+    text-align: center;
+}
+
+.produtos-item h2{
+    text-align: center;
+    font-size: 2.25em;
+}
+
+/* Esfera */
+.produtos-item h2::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: currentcolor;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 5px solid #e7edf8;
+    box-shadow: 0 0 0 5px currentcolor;
+}
+
+h2.produtos-paulista::before {
+    color: #492901;
+}
+
+h2.produtos-carioca::before {
+    color: #c17139;
+}
+
+h2.produtos-mineiro::before {
+    color: #d7a54d;
+}
+.produtos-item p{
+    font-size: 0.875em;
+    line-height: 1.4em;
+    
+}
+.produtos-btn{
+    width: 180px;
+    border: 3px solid #252525;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+    color: #252525;   
+}
+
+/* Locais */
+
+.locais{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;    
+}    
+
+.locais-item::after, .locais-item::before{
+    clear: both;
+    content: "";
+    display: table;
+}
+.locais-item img{
+    float: left;
+    display: block;   
+}
+
+.locais-item > div{
+    float: left;
+}
+
+.locais-item h2{
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.locais-item p{
+    font-size: 1.125em;
+    line-height: 1.4em;
+
+}
+
+.locais-item a{
+    font-size: 1.125em;
+    text-transform: uppercase;
+    border: 3px solid;
+    color: #252525;
+    padding: 10px 20px;
+    
+}
+
