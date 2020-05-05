@@ -15,6 +15,11 @@ body{
     box-sizing: border-box;
 }
 
+img {
+    /* deixa a imagem responsiva */
+    max-width: 100%;
+    display: block;
+}
 /* Menu inicial */
 
 .header{
