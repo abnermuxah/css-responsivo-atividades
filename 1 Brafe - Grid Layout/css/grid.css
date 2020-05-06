@@ -2,9 +2,10 @@
 
 .container {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 0 auto; /*alinhar o container */
 }
 /* Clear fix */
+/*evita quebrar o lemento que esta flutuando*/
 .container::after, .container::before {
     content: '';
     display: table;
@@ -83,5 +84,5 @@ grid-12 {
     margin-left: 0px;
     margin-right: 0px;
     float: none;
-}
+    }
 }
