@@ -4,4 +4,4 @@ Execucao das atividades práticas baseado no treinamento de CSS avancado da Orig
 
 Site oficial: https://www.origamid.com/
 
-Direitos do autor : André Rafael
+Direitos do autor : André Rafael.
